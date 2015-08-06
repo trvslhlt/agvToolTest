@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo $"==============\npre-push hook\n=============="
+cd AgvtoolTest #project folder name
+fastlane test
